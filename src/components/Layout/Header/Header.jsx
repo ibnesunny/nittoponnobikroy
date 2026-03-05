@@ -87,10 +87,12 @@ const Header = () => {
                 </div>
                 <div className='lg:navbar-center flex flex-between items-center'>
 
-                    <Link to="/" className="" onClick={handleMenuClick}> <TrueFocus
+                    <Link to="/" className="" onClick={handleMenuClick}> 
+                    <TrueFocus
                         borderColor="orange"
                         pauseBetweenAnimations={1}
-                    /></Link>
+                    />
+                    </Link>
 
 
 
