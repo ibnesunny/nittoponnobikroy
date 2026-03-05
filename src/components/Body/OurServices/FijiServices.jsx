@@ -45,17 +45,13 @@ const FijiServices = () => {
         {/* Text Section */}
         <div className="flex flex-col justify-center p-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 leading-tight text-gray-800">
-            Trusted Agency For FIJI Work Permit Visa
+            Trusted IGT Gas Safety Device for Every Home
           </h1>
           <p className="pt-2 text-gray-700">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-            et a id nisi.
+            The IGT Gas Safety Device is an advanced LPG regulator designed to protect your family from gas leak accidents. It continuously monitors your cylinder pressure and detects even the smallest gas leaks instantly.
           </p>
           <p className="py-4 text-gray-700">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-            et a id nisi.
+            With its automatic shut-off mechanism, the device cuts off gas supply the moment a leak is detected, ensuring safe and worry-free cooking every day. It is easy to install, ISI certified, and compatible with all standard LPG cylinders.
           </p>
           <button className="btn btn-primary bg-gradient-to-r from-primary to-secondary text-white text-lg md:text-[22px] hover:shadow-blue-500 hover:shadow-md hover:border-white hover:border-2 w-fit">
             Get Started
