@@ -9,7 +9,7 @@ const InfoCards = () => {
     const cardData = [
         {
             id:1,
-            name: 'Opening Hours',
+            name: 'Service Hours',
             description: 'Open 9.00 am to 5.00 pm everyday',
             icon: clock,
             bgClass: 'bg-gradient-to-r from-accent to-secondary',
@@ -17,7 +17,7 @@ const InfoCards = () => {
         },
         {
             id:2,
-            name: 'Our Locations',
+            name: 'Showroom Location',
             description: 'Uttara Dhaka 1216, Bangladesh',
             icon: marker,
             bgClass: 'bg-gradient-to-r from-primary to-secondary',
@@ -25,7 +25,7 @@ const InfoCards = () => {
         },
         {
             id:3,
-            name: 'Contact Us',
+            name: 'Order & Support',
             description: '+8801753250000 / 01746402080',
             icon: phone,
             bgClass: 'bg-gradient-to-r from-primary to-accent',

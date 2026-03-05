@@ -58,7 +58,7 @@ const DynamicParallaxCarousel = () => {
       onMouseLeave={handleMouseLeave}
     >
       <h1 className="text-4xl md:text-5xl text-accent font-bold text-center mb-8">
-        Our Success Story
+        Our Happy Customers
       </h1>
 
       <div className="relative w-full max-w-6xl mx-auto h-[320px] md:h-[400px] lg:h-[480px]">

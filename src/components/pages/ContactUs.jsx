@@ -11,7 +11,7 @@ function ContactUs() {
                     Contact Us
                 </h2>
                 <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 sm:text-xl">
-                    Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.
+                    Want to know more about the IGT Gas Safety Device? Need help with installation or have a warranty query? Interested in becoming a dealer? Let us know.
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 ">
                     {/* Contact Form */}

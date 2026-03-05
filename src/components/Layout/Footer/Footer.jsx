@@ -53,7 +53,7 @@ const Footer = () => {
                 <Link to={"/about"} className="link link-hover">About us</Link>
                 <Link to={"/#"} className="link link-hover">Terms & Conditions</Link>
                 <Link to={"/#"} className="link link-hover">Privacy Policy</Link>
-                <Link to={"/#"} className="link link-hover">Return & Cancellation Policy</Link>
+                <Link to={"/#"} className="link link-hover">Return & Warranty Policy</Link>
 
 
 
@@ -138,7 +138,7 @@ const Footer = () => {
                         <p><Link to={"/about"} className="link link-hover">About us</Link></p>
                         <p><Link to={"/#"} className="link link-hover">Terms & Conditions</Link></p>
                         <p> <Link to={"/#"} className="link link-hover">Privacy Policy</Link></p>
-                        <p><Link to={"/#"} className="link link-hover">Passport Return Policy</Link></p>
+                        <p><Link to={"/#"} className="link link-hover">Return & Warranty Policy</Link></p>
                     </div>
                 </div>
 

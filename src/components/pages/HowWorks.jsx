@@ -40,10 +40,10 @@ const HowWorks = () => {
           whileInView="visible"
           viewport={{ once: true }}
         >
-          <img className="" src={works1} alt="" style={{ width: '100%', height: '80%' }} />
+          <img className="" src={works1} alt="Choose your IGT Gas Safety Device" style={{ width: '100%', height: '80%' }} />
           <div className="brief">
-            <h1 className='text-center'>FIND YOUR VISA OPTION</h1>
-            <h3 className='text-center'>Explore work permit or student visa options easily. We guide you step by step to choose the right visa for you.</h3>
+            <h1 className='text-center'>CHOOSE YOUR IGT DEVICE</h1>
+            <h3 className='text-center'>Browse our range of IGT Gas Safety Devices. We help you select the right model based on your cylinder type and kitchen setup.</h3>
           </div>
         </motion.div>
 
@@ -56,10 +56,10 @@ const HowWorks = () => {
           viewport={{ once: true }}
         >
           <div className="brief">
-            <h1 className='text-center'>BOOK CONSULTATION</h1>
-            <h3 className='text-center'>Schedule a consultation with our visa experts in just a few clicks. We will handle all the paperwork for you.</h3>
+            <h1 className='text-center'>PLACE YOUR ORDER</h1>
+            <h3 className='text-center'>Order your IGT Gas Safety Device online or visit our showroom. We offer easy ordering with fast delivery across Bangladesh.</h3>
           </div>
-          <img className="w-64" src={works2} alt="" />
+          <img className="w-64" src={works2} alt="Place your order for IGT device" />
         </motion.div>
 
         {/* Box 3 - from Left */}
@@ -70,10 +70,10 @@ const HowWorks = () => {
           whileInView="visible"
           viewport={{ once: true }}
         >
-          <img className="w-64" src={works3} alt="" />
+          <img className="w-64" src={works3} alt="Easy installation of IGT device" />
           <div className="brief">
-            <h1 className='text-center'>VISA APPLICATION</h1>
-            <h3 className='text-center'>Submit your work permit or student visa application with our support. We ensure everything is complete and correct.</h3>
+            <h1 className='text-center'>EASY INSTALLATION</h1>
+            <h3 className='text-center'>Install the device on your LPG cylinder in minutes. No tools required - just attach it between the regulator and the cylinder.</h3>
           </div>
         </motion.div>
 
@@ -86,10 +86,10 @@ const HowWorks = () => {
           viewport={{ once: true }}
         >
           <div className="brief">
-            <h1 className="text-center">GET YOUR VISA</h1>
-            <h3 className='text-center'>Receive your visa and start your journey confidently. We are here to ensure a smooth process from start to finish.</h3>
+            <h1 className="text-center">COOK WITH CONFIDENCE</h1>
+            <h3 className='text-center'>Enjoy safe, worry-free cooking every day. The IGT device monitors your gas 24/7 and automatically shuts off if a leak is detected.</h3>
           </div>
-          <img className="h-80 sm:w-68" src={works4} alt="" />
+          <img className="h-80 sm:w-68" src={works4} alt="Safe cooking with IGT Gas Safety Device" />
         </motion.div>
       </div>
     </section>
