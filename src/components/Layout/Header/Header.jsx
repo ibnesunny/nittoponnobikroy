@@ -61,7 +61,7 @@ const Header = () => {
             {/* { for small & Medium Device } */}
 
             <div className="navbar flex justify-around lg:hidden">
-                <div className="relative mr-7 ref={dropdownRef}">
+                <div className="relative mr-7" ref={dropdownRef}>
 
                     <button
                         className="btn btn-ghost"
