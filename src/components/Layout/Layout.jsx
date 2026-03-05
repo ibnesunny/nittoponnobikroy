@@ -5,21 +5,20 @@ import Footer from './Footer/Footer'
 import CirclingClockSpinner from '../pages/circling-clock'
 
 const Layout = () => {
-  const [loading, setLoading] = useState(false);
-  useEffect(()=>{
-    const timer = setTimeout(()=>{
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    const timer = setTimeout(() => {
       setLoading(false);
-
-    },2000);
+    }, 2000);
     return () => clearTimeout(timer);
-      }, []);
-      if(loading){
-        //spinner showing
-        return <CirclingClockSpinner/>;
-      }
-      
+  }, []);
+
+  if (loading) {
+    return <CirclingClockSpinner />;
+  }
+
   return (
-    <div className='max-w-[1440px] dark:bg-white  mx-auto'>
+    <div className='max-w-[1440px] mx-auto'>
       <Header />
       <Outlet />
       <Footer />

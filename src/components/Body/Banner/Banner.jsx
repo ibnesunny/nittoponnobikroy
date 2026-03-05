@@ -56,20 +56,13 @@ const Banner = () => {
       }} >
 
       <div className="hero-content flex-col lg:flex-row-reverse">
-        {/* <img
-          src={require('../../../assets/images/banner6.jpg')}
-          alt="logo" className="lg:max-w-md rounded-lg  shadow-2xl "
-        /> */}
-        <img src={onBanner} alt="logo" className="lg:max-w-md rounded-lg  shadow-2xl " />
+        <img src={onBanner} alt="IGT Gas Safety Device" className="lg:max-w-md rounded-lg shadow-2xl" />
         <div className='text-white text-center'>
 
           <h1 ref={quoteRef} className="font-bold text-white
  mb-0 text-3xl md:text-4xl lg:text-5xl text-shadow-md  text-shadow-green-700" >{'Safe Cooking Starts'} <br />{'from Here....'}</h1>
           <p className="py-6 font-poppins text-shadow-lg text-shadow-green-900">The IGT Gas Safety Device is an advanced LPG regulator that detects gas leaks, monitors cylinder pressure, and automatically shuts off gas to prevent accidents. Ensure safe and worry-free cooking for your home.</p>
-          {/* <button onClick={handleAnimate}   className="btn  btn-primary bg-gradient-to-r from-primary to-secondary text-white text-[22px] hover:bg-info ">Get Started</button> 
-          */}
-
-          <button onClick={handleAnimate} className="btn  btn-primary bg-gradient-to-r from-primary to-secondary text-white text-[22px] hover:shadow-white hover:shadow-md hover:border-white hover:border-2 ">Get Started</button>
+          <button onClick={handleAnimate} className="btn btn-primary bg-gradient-to-r from-primary to-secondary text-white text-[22px] hover:shadow-white hover:shadow-md hover:border-white hover:border-2">Get Started</button>
         </div>
       </div>
     </div>

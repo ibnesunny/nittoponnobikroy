@@ -1,9 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom'
 import logo from '../../../assets/images/logo1.png'
-import TrueFocus from '../TrueFocus/TrueFocus'
+
 const Header = () => {
-    // const [user, loading, error] = useAuthState(auth);
     const [open, setOpen] = useState(false);
     const dropdownRef = useRef(null);
 
@@ -21,9 +20,6 @@ const Header = () => {
     }, []);
     const handleMenuClick = () => setOpen(false);
 
-    // const logout = () => {
-    //     signOut(auth);
-    // }
     const menuItem = (
         <>
 
@@ -38,7 +34,7 @@ const Header = () => {
                 <Link to="/how-works" onClick={handleMenuClick}
                     className="hover:bg-red-100 hover:text-red-500 active:bg-red-200 rounded-md px-2"
                 >
-                    How It's Work
+                    How It Works
                 </Link>
             </li>
          
@@ -54,13 +50,9 @@ const Header = () => {
                 <Link to="/contact-us" onClick={handleMenuClick}
                     className="hover:bg-cyan-100 hover:text-red-500 active:bg-yellow-200 rounded-md px-2"
                 >
-                    Contact US
+                    Contact Us
                 </Link>
             </li>
-
-            {/* <li> {"" ? <button className='btn btn-ghost' onClick={""}>Sign out</button> : <Link to="/login">Login</Link>}</li> */}
-            {/* <li> { <button className='btn btn-ghost' >Sign out</button>} </li> */}
-
         </>
     );
     return (
@@ -86,14 +78,10 @@ const Header = () => {
                     )}
                 </div>
                 <div className='lg:navbar-center flex flex-between items-center'>
-
-                    <Link to="/" className="" onClick={handleMenuClick}> <TrueFocus
-                        borderColor="orange"
-                        pauseBetweenAnimations={1}
-                    /></Link>
-
-
-
+                    <Link to="/" className="text-xl font-bold" onClick={handleMenuClick}>
+                        <span className="text-[#E63843]">NittoPonno</span>
+                        <span className="text-[#00436b]">Bikroy</span>
+                    </Link>
                 </div>
                 <div>
                     <img className='h-[50px] w-[70px]' src={logo} alt="" />
@@ -108,13 +96,10 @@ const Header = () => {
                     <img className='h-[60px] w-[80px]' src={logo} alt="Nitto-Ponno-Bikroy-logo" />
                 </div>
                 <div className='p-0'>
-                    <TrueFocus
-
-
-                        borderColor="orange"
-                        pauseBetweenAnimations={1}
-                    />
-                    {/* <Link to="/" className="btn btn-ghost normal-case text-4xl font-bold text-cyan-500 hover:bg-base-100">Nitto Ponno Bikroy</Link> */}
+                    <Link to="/" className="text-3xl font-bold">
+                        <span className="text-[#E63843]">NittoPonno</span>
+                        <span className="text-[#00436b]">Bikroy</span>
+                    </Link>
                 </div>
 
                 <div>
